@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- for responsive page -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../images/title-icon.png">
+        <title>Profile </title>
+        <!-- for animation -->
+        <link rel="stylesheet" href="../css/animate.css">
+        <!-- library for icon -->
+        <link rel="stylesheet" href="../css/all.min.css">
+        <link rel="stylesheet" href="../css/fontawesome.min.css">
+        <!-- for owl.carousel -->
+        <link rel="stylesheet" type="text/css" href="../css/owl.carousel.css">
+        <link rel="stylesheet"  type="text/css" href="../css/owl.theme.default.css">
+        <!-- fancybox -->
+        <link rel="stylesheet" href="../css/jquery.fancybox.css">
+        <!-- flaticon library -->
+        <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+        <!-- frame work -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- style file -->
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body>
+        <!-- starting header -->
+        <header>
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-2 col-md-12 col-sm-12 col-12 order-lg-0 order-0 hrlogo">
+                        <a href="#"><img src="../images/hamat-logo.png" alt="logo"></a>
+                        <i class="fas fa-bars fa-2x"></i>
+                    </div>
+                    
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-12 order-lg-1 order-2 hrlinks">
+                        <ul>
+                            <li><a href="#">Home page</a></li>
+                            <li class="submenu">
+                                <a href="#">Courses </a>
+                                <ul class="dropdown-hamat">
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 1</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="#">E-hamat</a>
+                                <ul class="dropdown-hamat">
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 1</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li class="submenu">
+                                <a href="#">English</a>
+                                <ul class="dropdown-hamat">
+                                    <li><a href="#">link 1</a></li>
+                                    <li><a href="#">link 1</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-12 col-sm-12 col-12 order-lg-2 order-1 hricons">
+                        <div class="row">
+                            <div class="col">
+                                <img src="../images/certificate-icon.png" alt="image" title="certificate" data-toggle="modal" data-target=".modal-form-certificate">
+                            </div>
+                            <div class="col submenu">
+                                <i class="flaticon-user" title="profile"></i>
+                                <ul class="dropdown-hamat">
+                                    <li><a href="#">goto profile</a></li>
+                                    <li><a href="#">edit profile</a></li>
+                                </ul>
+                            </div>
+                            <div class="col"><i class="flaticon-shopping-cart" title="card"></i></div>
+                            <div class="col">
+                                <i class="flaticon-search" title="search" data-toggle="modal" data-target=".modal-form-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End header -->
+        
+        
+        <!-- starting modal-form-certificate -->
+        <div class="modal fade modal-form-certificate" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> <!-- start modal for edit -->
+            <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myLargeModalLabel"><span>fill input field and press button</span></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-certificate">
+                            <input type="text" name="" placeholder="entre U certificate NUM..">
+                            <input type="submit" name="" value="entre">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End modal-form-certificate -->
+        
+        
+        <!-- starting modal-form-search -->
+        <div class="modal fade modal-form-search" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"> <!-- start modal for edit -->
+            <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myLargeModalLabel"><span>fill input field and press button</span></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-search">
+                            <input type="search" name="" placeholder="search...">
+                            <input type="submit" name="" value="search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End modal-form-search -->
+        
+        
+        <!-- starting profile -->
+        <section class="profile">
+            <div class="container">
+                <img class="img1" src="../images/bh-shap1.png" alt="image">
+                <img class="img2" src="../images/bh-shap5.png" alt="image">
+                <img class="img3" src="../images/bh-shap1.png" alt="image">
+                <img class="img4" src="../images/bh-shap3.png" alt="image">
+                <div class="row profwelc">
+                    <div class="col-md col-sm-8 col-12">
+                        <h4 class="h4">Ahmed's <span>Profile</span></h4>
+                    </div>
+                    <div class="col-md col-sm-4 col-12">
+                        <a href="#"><i class="far fa-edit"></i> Edit</a>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col-md order-md-0 order-1">
+                        <div>
+                            <h5>Ahmed S.</h5>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        </div>
+                        <div>
+                            <h5>Info.</h5>
+                            <div class="row">
+                                <div class="col-sm-6 col-12"><span>example@hamat.com</span></div>
+                                <div class="col-sm-6 col-12"><span>0101846986455131</span></div>
+                                <div class="col-sm-6 col-12"><span>Qualification</span></div>
+                                <div class="col-sm-6 col-12"><span>ID NO. </span></div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-md order-md-1 order-0">
+                        <div class="profile-avatar">
+                            <img src="../images/avatar.jpg" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="profcourses">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="row">
+                                <div class="col-3"><span>02</span></div>
+                                <div class="col-9">Completed <br> Courses</div>
+                                <div class="col-12 upmenu">
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                            <div class="row">
+                                <div class="col-3"><span>02</span></div>
+                                <div class="col-9">Under <br> Progress</div>
+                                <div class="col-12 upmenu">
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                    <a href="#">name of course</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End profile -->
+        
+        <!-- starting contact -->
+        <section class="contact">
+            <div class="container">
+                <div>
+                    <h5>Contact us </h5>
+                    <p>For all inquiries, Please call our main reception between 8.30 am - 3.30 pm  Tel: <a href="tel:012 238 0400">012 238 0400</a></p>
+                    <p>Addr. Fuad Shaker Street An Nuzhah, Jeddah Reva Building, 1st Floor Tel: <a href="tel:012 238 0400">012 238 0400</a></p>
+                    <p>Email:  <a href="info@hamatacademy.edu.sa">info@hamatacademy.edu.sa</a></p>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <h5>Follow us</h5>
+                        <div>
+                            <a href="https://www.facebook.com/Hamat-Academy-102735208107101/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                            
+                            <a href="https://twitter.com/hamattraining?lang=en" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                            
+                            <a href="https://www.instagram.com/hamatacademy/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                            
+                            <a href="https://www.linkedin.com/company/hamat-training-center" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <p>Subscribe and get our  latest news!</p>
+                        <form action="sent.php" method="post">
+                            <div class="row">
+                                <div class="col-8"><input type="email" placeholder="Put your mail here" name="email"></div>
+                                <div class="col-4"><input type="submit" value="Subscribe"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End contact -->
+        
+        
+        <!-- starting footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img src="../images/vision2030-logo.png" alt="image"></div>
+                    <div class="col"><img src="../images/hamat-logo.png" alt="image"></div>
+                    <div class="col"><img src="../images/public-adones-logo.png" alt="image"></div>
+                </div>
+            </div>
+        </footer>
+        <!-- End footer -->
+        
+        
+        <!-- starting social-media -->
+        <section class="social-media">
+            <ul>
+                <li><a href="https://www.linkedin.com/company/hamat-training-center" target="_blank"><img src="../images/linkedin.png" alt="icon"></a></li>
+                <li><a href="https://www.facebook.com/Hamat-Academy-102735208107101/" target="_blank"><img src="../images/facebook.png" alt="icon"></a></li>
+                <li><a href="https://twitter.com/hamattraining?lang=en" target="_blank"><img src="../images/twitter.png" alt="icon"></a></li>
+                <li><a href="https://www.instagram.com/hamatacademy/" target="_blank"><img src="../images/instagram.png" alt="icon"></a></li>
+            </ul>
+        </section>
+        <!-- End social-media -->
+        
+        
+        <!-- starting loading -->
+        <section class="loading-overlay">
+            <img src="../images/hamat-logo.png" alt="image">
+        </section>
+        <!-- End loading -->
+        
+        
+        <!-- starting button-top -->
+        <div id="button-top">
+            <i class="fa fa-angle-up fa-2x"></i>
+        </div>
+        <!-- End button-top -->
+        
+        
+        <!-- starting scripts -->
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/jquery.mixitup.js"></script>
+        <script src="../js/owl.carousel.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/jquery.fancybox.js"></script> 
+        <script src="../js/myscript.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script src="../js/wowjava.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script type="text/javascript">
+            document.addEventListener('mousemove', e => parallax(e));
+
+            const parallax = (e) => {
+                document.querySelectorAll('.layer').forEach(layer => {
+                    const speed = layer.getAttribute('data-speed');
+
+                    const x = (window.innerWidth - e.pageX * speed) / 100;
+                    const y = (window.innerHeight - e.pageY * speed) / 100;
+
+                    layer.style.transform = `translate(${x}px, ${y}px)`;
+                });
+            }
+        </script>
+        <!-- WhatsHelp.io widget -->
+        <script type="text/javascript">
+            (function () {
+                var options = {
+                    whatsapp: "+201145476545", // WhatsApp number
+                    call_to_action: "whatsapp", // Call to action
+                    position: "left", // Position may be 'right' or 'left'
+                };
+                var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+                s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            })();
+        </script>
+        <!-- /WhatsHelp.io widget -->
+
+        <!-- End scripts -->
+    </body>
+</html>

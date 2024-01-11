@@ -1,0 +1,81 @@
+$arfont: 'The-Sans-Plain';
+body{
+    font-family: 'The-Sans-Plain';
+    font-weight: normal;
+    font-style: normal;
+    text-align: right;
+    overflow: hidden;
+    direction: rtl;
+}
+.iconathead{
+    left: 50%;
+}
+.main-heading .h3,
+.h4,h4,
+.contact .container > div:first-of-type h5,
+.main-heading h3{
+    letter-spacing: 0;
+}
+header .hrlogo i{
+    left: 20px;
+    right: auto;
+}
+header .hricons form input[type=submit]{
+    left: 0;
+    right: auto;
+}
+.contact .container .row form{
+    margin-right: auto;
+    margin-left: 0;
+}
+h4 span {
+    font-family: $arfont;
+}
+.about-hamat .container .shap1{
+    right: 0;
+    left: auto;
+}
+.ourvalue .container .row > div p{
+    font-family: $arfont;
+}
+.getin-toutch .container > .row > div:last-of-type form .row > div:nth-of-type(1) {
+    padding-left: 15px;
+    padding-right: 0;
+}
+.course-inner .course-info > div:last-of-type div .course-info-btn {
+    padding: 9px 50px;
+    font-size: 16px;
+}
+.course-inner .course-details .maincon .part2 .item .item-up > div:nth-of-type(2){
+//    text-align: left;
+}
+.mainbox-course .boxdetails a {
+    padding: 3px 20px;
+}
+.profile .container .profcourses > .row > div .row div:first-of-type {
+    border-right: 5px solid #F6911C;
+    border-left: 0;
+}
+.blog .container .mainbox .row > div:last-of-type{
+    text-align: left;
+}
+.modal-header .close {
+    margin-right: auto;
+    margin-left: 0;
+}
+.course-inner .course-details ul li.forheart {
+    left: 0;
+    right: auto;
+}
+.modal-form-search .modal-body form input[type=submit],
+.modal-form-certificate .modal-body form input[type=submit]{
+    left: 0;
+    right: auto;
+}
+
+
+
+
+
+
+
